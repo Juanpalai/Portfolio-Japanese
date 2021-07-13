@@ -8,6 +8,6 @@ body {
   background-image: url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2Frsz_arian-darvishi-wh-rpfr_3_m-unsplash.jpg?v=1626162326250);
   background-size: cover;
   background-position: center;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode:darken;
 }
