@@ -14,9 +14,15 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <linkhref="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+    rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
     />
   </head>
   <body>
@@ -26,21 +32,21 @@
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">ホーム</a>
-     </li>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">作品</a>
-   </li>
-    <li class="nav-item">
-     <a class="nav-link" href="#">お問い合わせ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">お問い合わせ</a>
           </li>
         </ul>
       </nav>
-  <div
+      <div
         class="cover d-flex justify-content-center align-items-center flex-column"
       >
-  <h1>
+        <h1>
           LAGOS IDROBO JUAN PABLO
-  </h1>
+        </h1>
         <p>
           ラゴス　イドロボ　フアン　パブロ
         </p>
@@ -69,17 +75,17 @@
                 </p>
                 <a href="linefour.html" class="btn btn-primary">Go somewhere</a>
               </div>
-      </div>
+            </div>
           </div>
           <!-- Music Girl card-->
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
             <div class="card">
               <div
-           class="cover cover-small"
+                class="cover cover-small"
                 style="background-image:url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2Fgame1.PNG?v=1626186177001)"
               ></div>
               <div class="card-body">
-           <h5 class="card-title">Music Grirl</h5>
+                <h5 class="card-title">Music Grirl</h5>
                 <p class="card-text">
                   UnityでC＃を使用して開発された2Dアクションゲーム
                 </p>
@@ -122,5 +128,26 @@
         </div>
       </div>
     </section>
+
+    <!-- Popup -->
+
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
+          ><i class="fas fa-times"></i
+        ></a>
+        <h3>SUSCRIBETE</h3>
+        <h4>y recibe un cupon de descuento.</h4>
+        <form action="">
+          <div class="contenedor-inputs">
+            <input type="text" placeholder="Nombre" />
+            <input type="email" placeholder="Correo" />
+          </div>
+          <input type="submit" class="btn-submit" value="Suscribirse" />
+        </form>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
   </body>
 </html>
