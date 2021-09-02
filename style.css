@@ -60,6 +60,7 @@ body {
 	padding: 20px;
 	text-align: center;
 	width: 600px;
+  height: 600px;
 	
 	transition: .3s ease all;
 	transform: scale(0.7);
@@ -80,8 +81,7 @@ body {
 }
 
 .popup h3 {
-	font-size: 36px;
-	font-weight: 600;
+	
 	margin-bottom: 10px;
 	opacity: 0;
 }
