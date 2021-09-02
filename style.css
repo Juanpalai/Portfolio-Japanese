@@ -1,34 +1,32 @@
-body {  
-  margin: 0em;  
-  font-family: 'Noto Sans JP', sans-serif;
+body {
+  margin: 0em;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-.cover{
-  height:400px;
+.cover {
+  height: 400px;
   color: white;
   background-image: url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2Frsz_arian-darvishi-wh-rpfr_3_m-unsplash.jpg?v=1626162326250);
   background-size: cover;
   background-position: center;
-  background-color: rgba(0,0,0,0.5);
-  background-blend-mode:darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
-.cover-small
-{
-  height:200px;
-  background-blend-mode:normal;
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
 }
-.card{
+.card {
   border: 0 !important;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.card-title
-{
-  min-height:2rem
+.card-title {
+  min-height: 2rem;
 }
 
-.card-text
-{
-  min-height:5rem
+.card-text {
+  min-height: 5rem;
 }
