@@ -1,20 +1,32 @@
-var btnAbrirPopup = document.getElementById("btn-abrir-popupMG"),
-  overlay = document.getElementById("overlayMG"),
-  popup = document.getElementById("popupMG"),
-  btnCerrarPopup = document.getElementById("btn-cerrar-popup");
 
 var btnAbrirPopup = document.getElementById("btn-abrir-popupC4"),
-  overlay = document.getElementById("overlayC4"),
-  popup = document.getElementById("popupC4"),
-  btnCerrarPopup = document.getElementById("btn-cerrar-popup");
+  overlayc4 = document.getElementById("overlayC4"),
+  popupc4 = document.getElementById("popupC4"),
+  btnCerrarPopup = document.getElementById("btn-cerrar-popupC4");
+
+var btnAbrirPopupMG = document.getElementById("btn-abrir-popupMG"),
+  overlaymg = document.getElementById("overlayMG"),
+  popupmg = document.getElementById("popupMG"),
+  btnCerrarPopupMG = document.getElementById("btn-cerrar-popupMG");
 
 btnAbrirPopup.addEventListener("click", function() {
-  overlay.classList.add("active");
-  popup.classList.add("active");
+  overlayc4.classList.add("active");
+  popupc4.classList.add("active");
 });
 
 btnCerrarPopup.addEventListener("click", function(e) {
   e.preventDefault();
-  overlay.classList.remove("active");
-  popup.classList.remove("active");
+  overlayc4.classList.remove("active");
+  popupc4.classList.remove("active");
+});
+
+btnAbrirPopupMG.addEventListener("click", function() {
+  overlaymg.classList.add("active");
+  popupmg.classList.add("active");
+});
+
+btnCerrarPopupMG.addEventListener("click", function(e) {
+  e.preventDefault();
+  overlaymg.classList.remove("active");
+  popupmg.classList.remove("active");
 });
