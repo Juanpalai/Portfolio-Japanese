@@ -21,8 +21,10 @@ body {
 
 .cover-small-popup {
   height: 300px;
+  width: 250px;
   background-blend-mode: normal;  
-  background-size: cover;
+  background-size: contain;
+  
  
   
 }
