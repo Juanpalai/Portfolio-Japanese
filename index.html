@@ -16,7 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <linkhref="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
   </head>
   <body>
     <header>
@@ -26,9 +29,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">ホーム</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">作品</a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#">お問い合わせ</a>
           </li>
@@ -45,7 +46,7 @@
         </p>
         <p>
           PORTFOLIO
-        </p>        
+        </p>
       </div>
     </header>
     <section>
@@ -63,7 +64,9 @@
                 <p class="card-text">
                   シンプルなAIを使ってJavaで開発された4目並べ
                 </p>
-                <a id="btn-abrir-popup" class="btn btn-primary">Go somewhere</a>
+                <a id="btn-abrir-popupC4" class="btn btn-primary"
+                  >Go somewhere</a
+                >
               </div>
             </div>
           </div>
@@ -79,7 +82,9 @@
                 <p class="card-text">
                   UnityでC＃を使用して開発された2Dアクションゲーム
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a id="btn-abrir-popupMG" class="btn btn-primary"
+                  >Go somewhere</a
+                >
               </div>
             </div>
           </div>
@@ -119,24 +124,64 @@
       </div>
     </section>
 
-    <!-- Popup -->
+    <!-- Popup Connect4-->
 
-    <div class="overlay" id="overlay">
-      <div class="popup" id="popup">
-        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+    <div class="overlay" id="overlayC4">
+      <div class="popup" id="popupC4">
+        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
+          ><i class="fas fa-times"></i
+        ></a>
         <h3>
           <div
             class="cover cover-small-popup"
             style="background-image:url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2F4%E7%9B%AE%E4%B8%A6%E3%81%B9.PNG?v=1626163438191"
           ></div>
         </h3>
-        <h4>グラフィカルでインタラクティブなインターフェースを使用してJavaで開発されたConnect4は、シンプルなAIと対戦できます</h4>
+        <h4>
+          グラフィカルでインタラクティブなインターフェースを使用してJavaで開発されたConnect4は、シンプルなAIと対戦できます
+        </h4>
         <form action="">
-          <a href="https://github.com/Tradocks/Connect-4" target="_blank" type="submit" class="btn-submit"/>GitHub</a>
+          <a
+            href="https://github.com/Tradocks/Connect-4"
+            target="_blank"
+            type="submit"
+            class="btn-submit"
+            >GitHub</a
+          >
         </form>
       </div>
     </div>
+
    
-     <script src="popup.js"></script>
+
+    <!-- Popup MusicGirl-->
+
+    <div class="overlay" id="overlayMG">
+      <div class="popup" id="popupMG">
+        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
+          ><i class="fas fa-times"></i
+        ></a>
+        <h3>
+          <div
+            class="cover cover-small-popup"
+            style="background-image:url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2F4%E7%9B%AE%E4%B8%A6%E3%81%B9.PNG?v=1626163438191"
+          ></div>
+        </h3>
+        <h4>
+          La chica musical
+        </h4>
+        <form action="">
+          <a
+            href="https://github.com/Tradocks/Connect-4"
+            target="_blank"
+            type="submit"
+            class="btn-submit"
+            >GitHub</a
+          >
+        </form>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
   </body>
 </html>
