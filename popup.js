@@ -14,12 +14,15 @@ var btnAbrirPopupTA = document.getElementById("btn-abrir-popupTA"),
   popupta = document.getElementById("popupTA"),
   btnCerrarPopupTA = document.getElementById("btn-cerrar-popupTA");
 
-btnAbrirPopup.addEventListener("click", function() {
+
+
+
+btnAbrirPopupTA.addEventListener("click", function() {
   overlayta.classList.add("active");
   popupta.classList.add("active");
 });
 
-btnCerrarPopup.addEventListener("click", function(e) {
+btnCerrarPopupTA.addEventListener("click", function(e) {
   e.preventDefault();
   overlayta.classList.remove("active");
   popupta.classList.remove("active");
