@@ -14,8 +14,10 @@ var btnAbrirPopupTA = document.getElementById("btn-abrir-popupTA"),
   popupta = document.getElementById("popupTA"),
   btnCerrarPopupTA = document.getElementById("btn-cerrar-popupTA");
 
-
-
+var btnAbrirPopupWP = document.getElementById("btn-abrir-popupWP"),
+  overlaywp = document.getElementById("overlayWP"),
+  popupwp = document.getElementById("popupWP"),
+  btnCerrarPopupWP = document.getElementById("btn-cerrar-popupWP");
 
 btnAbrirPopupTA.addEventListener("click", function() {
   overlayta.classList.add("active");
@@ -49,11 +51,6 @@ btnCerrarPopupMG.addEventListener("click", function(e) {
   overlaymg.classList.remove("active");
   popupmg.classList.remove("active");
 });
-
-var btnAbrirPopupWP = document.getElementById("btn-abrir-popupWP"),
-  overlaywp = document.getElementById("overlayWP"),
-  popupwp = document.getElementById("popupWP"),
-  btnCerrarPopupWP = document.getElementById("btn-cerrar-popupWP");
 
 btnAbrirPopupWP.addEventListener("click", function() {
   overlaywp.classList.add("active");
