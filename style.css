@@ -1,17 +1,17 @@
 
 body {
- background-color: #DCF0FF;
+ background-color: #1A1A1A;
   filter: invert(100%);
-  filterl: invert.img(100%);
   margin: 0em;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 img {
-  filter: grayscale(0.5) blur(10px);
+  
 }
 
 .cover {  
+  filter: invert(100%);
   height: 400px;
   color: white;
   background-image: url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2Frsz_arian-darvishi-wh-rpfr_3_m-unsplash.jpg?v=1626162326250);
@@ -28,11 +28,13 @@ img {
 }
 
 .cover-small {
+  
   height: 200px;
   background-blend-mode: normal;
 }
 
 .cover-small-popup {
+  
   height: 350px;
   margin-left: 125px;
   width: 330px;
@@ -48,6 +50,7 @@ img {
 }
 
 .card {
+  background-color: #DADADA;
   border: 0 !important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
