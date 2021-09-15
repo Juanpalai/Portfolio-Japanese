@@ -1,9 +1,11 @@
+
 body {
+ background-color: #8AA0BC;
   margin: 0em;
   font-family: "Noto Sans JP", sans-serif;
 }
 
-.cover {
+.cover {  
   height: 400px;
   color: white;
   background-image: url(https://cdn.glitch.com/4cca95d7-5082-4e5c-8e1f-aea9cec38165%2Frsz_arian-darvishi-wh-rpfr_3_m-unsplash.jpg?v=1626162326250);
@@ -15,6 +17,7 @@ body {
 }
 
 .row{
+  
   margin-top: 30px;
 }
 
