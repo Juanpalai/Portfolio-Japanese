@@ -1,8 +1,14 @@
 
 body {
- background-color: #8AA0BC;
+ background-color: #DCF0FF;
+  filter: invert(100%);
+  filterl: invert.img(100%);
   margin: 0em;
   font-family: "Noto Sans JP", sans-serif;
+}
+
+img {
+  filter: grayscale(0.5) blur(10px);
 }
 
 .cover {  
