@@ -6,8 +6,8 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
-img {
-  
+.img {
+  filter: invert(100%);
 }
 
 .cover {  
