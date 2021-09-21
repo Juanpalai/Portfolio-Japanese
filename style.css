@@ -22,6 +22,11 @@ body {
   
 }
 
+.textjp
+{
+  font-family: "Noto Sans JP";
+}
+
 .row{
   
   margin-top: 30px;
