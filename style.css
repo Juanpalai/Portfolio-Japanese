@@ -43,7 +43,7 @@ body {
 }
 
 .cover-small-popupMG {
-  height: 250px;  
+  height: 320px;  
   background-blend-mode: normal;
   background-size: cover;
    background-position: top;
@@ -93,7 +93,7 @@ body {
   padding: 20px;
   text-align: center;
   width: 600px;
-  height: 600px;
+  height: 800px;
 
   transition: 0.3s ease all;
   transform: scale(0.7);
