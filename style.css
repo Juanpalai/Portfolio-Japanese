@@ -212,4 +212,83 @@ body {
     opacity: 1;
   }
 }
+/* ------------------------- */
+/* SOCIAL MEDIA*/
+/* ------------------------- */
 
+
+:root {
+    --color-facebook: #3b5998;
+    --color-twitter: #55acee;
+    --color-instagram: #125688;
+    --color-youtube: #bb0000;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: star;
+    min-height: 50px;
+    padding: 0 15px;
+    background-color: #1A1A1A;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+}
+
+.icon:not(:first-child) {
+    margin-left: 5px;
+}
+
+.icon--facebook {
+    background-color: var(--color-facebook);
+}
+
+.icon--facebook:hover {
+    color: var(--color-facebook);
+    background-color: #fff;
+}
+
+.icon--twitter {
+    background-color: var(--color-twitter);
+}
+
+.icon--twitter:hover {
+    color: var(--color-twitter);
+    background-color: #fff;
+}
+
+.icon--youtube {
+    background-color: var(--color-youtube);
+}
+
+.icon--youtube:hover {
+    color: var(--color-youtube);
+    background-color: #fff;
+}
+
+.icon--instagram {
+    background-color: var(--color-instagram);
+}
+
+.icon--instagram:hover {
+    color: var(--color-instagram);
+    background-color: #fff;
+}
