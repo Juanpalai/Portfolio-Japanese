@@ -1,8 +1,12 @@
-html {
+html{
  background-color: #1A1A1A;
   filter: invert(100%);
   margin: 0em;
   font-family: "Noto Sans JP", sans-serif;
+  height: 100%;
+}
+body {
+    min-height: 100%;
 }
 
 .img {
