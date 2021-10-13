@@ -81,7 +81,7 @@ body {
   left: 0;
   right: 0;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   display: flex;
   visibility: hidden;
   
@@ -98,24 +98,10 @@ body {
   border-radius: 3px;
   font-family: "Noto Sans JP", sans-serif;
   padding: 20px;
-  text-align: star;
+  text-align: start;
   width: 600px;
-  height: 730px;
+  height: 730px;  
   
-  
-  
-  /* --transform: scale(0.7);
-  opacity: 0;
-   background: rgba(48, 48, 48, 0.5);
-    
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;-- */
 }
 
 .popup .btn-cerrar-popup {
