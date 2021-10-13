@@ -84,6 +84,7 @@ body {
   justify-content: center;
   display: flex;
   visibility: hidden;
+  
 }
 
 .overlay.active {
@@ -99,7 +100,6 @@ body {
   text-align: star;
   width: 600px;
   height: 730px;
-
   transition: 0.3s ease all;
   transform: scale(0.7);
   opacity: 0;
