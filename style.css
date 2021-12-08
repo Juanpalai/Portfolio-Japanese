@@ -51,10 +51,10 @@ body {
 }
 
 .cover-small-popupMG {
-  height: 320px;  
+  height: auto;  
   background-blend-mode: normal;
   background-size: cover;
-   background-position: top;
+  background-position: top;
 }
 
 .card {
