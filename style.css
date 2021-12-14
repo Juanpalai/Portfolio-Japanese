@@ -15,38 +15,6 @@ h2
   font-size:  200%;
 }
 
-.intro-information
-{
-    -webkit-text-size-adjust: 100%;    
-    line-height: 1em;
-    font-family: 'Noto Sans JP',sans-serif;
-    font-weight: 300;
-    width: inherit;
-    margin: 0 auto;
-    padding: 1em;
-    display: flex;
-    max-width: 930px;
-}
-
-.intro-full-description
-{
-    -webkit-text-size-adjust: 100%;        
-    font-weight: 300;
-    display: block;
-    width: 47.5%;
-    
-}
-
-.intro-statistics
-{
-    -webkit-text-size-adjust: 100%;  
-    line-height: 1em;    
-    font-weight: 300;
-    padding: 0 0 0 .5em;
-    width: 52.5%;
-    
-}
-
 
 .img {
   filter: invert(100%);
