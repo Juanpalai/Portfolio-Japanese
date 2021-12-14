@@ -30,13 +30,19 @@ h2
 
 .intro-full-description
 {
-      -webkit-text-size-adjust: 100%;
-    color: #dcdcdc;
-    line-height: 1em;
-    font-family: 'Source Sans Pro',sans-serif;
+    -webkit-text-size-adjust: 100%;        
     font-weight: 300;
     display: block;
     width: 47.5%;
+}
+
+.intro-statistics
+{
+    -webkit-text-size-adjust: 100%;  
+    line-height: 1em;    
+    font-weight: 300;
+    padding: 0 0 0 .5em;
+    width: 52.5%;
 }
 
 
