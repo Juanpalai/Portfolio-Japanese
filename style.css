@@ -32,6 +32,9 @@ h2
   
 }
 
+.scale-down {
+  object-fit: scale-down;
+}
 .textjp
 {
   font-family: "Noto Sans JP";
