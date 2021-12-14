@@ -15,7 +15,10 @@ h2
   font-size:  200%;
 }
 
-
+.presentation
+{
+  background-color: #D3CECE;
+}
 .img {
   filter: invert(100%);
 }
