@@ -69,10 +69,14 @@ h2
   min-height: 4rem;
 }
 
+.zoom
+{
+  transition: transform .2s;
+}
 .zoom:hover
 {
   transform: scale(1.5);
-  height: scale(1.5);
+  
 }
 
 /* ------------------------- */
