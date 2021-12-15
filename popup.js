@@ -1,3 +1,5 @@
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel);
 
 var btnAbrirPopup = document.getElementById("btn-abrir-popupC4"),
   overlayc4 = document.getElementById("overlayC4"),
