@@ -71,7 +71,7 @@ h2
 
 .zoom
 {
-  transition: transform .2s;
+  cursor: zoon ;
 }
 .zoom:hover
 {
@@ -79,6 +79,10 @@ h2
   
 }
 
+.carousel-item img
+{
+  cursor: pointer;
+}
 /* ------------------------- */
 /* Lightbox*/
 /* ------------------------- */
@@ -100,6 +104,7 @@ h2
 }
 
 #lightbox img {
+filter: invert(100%);
   max-width: 90%;
   max-height: 80%;
   padding: 4px;
