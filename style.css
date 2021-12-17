@@ -84,6 +84,11 @@ h2
 {
   cursor: zoom-in;
 }
+
+.maxbotton
+{
+  transform: scale(1.5);
+}
 /* ------------------------- */
 /* Lightbox*/
 /* ------------------------- */
