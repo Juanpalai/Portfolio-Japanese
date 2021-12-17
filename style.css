@@ -82,7 +82,7 @@ h2
 
 .carousel-item img
 {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 /* ------------------------- */
 /* Lightbox*/
